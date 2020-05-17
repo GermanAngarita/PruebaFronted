@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.PrivateValueLabel-circle-24 {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex;
+  transform: rotate(-45deg);
+  align-items: center;
+  border-radius: 50% 50% 50% 0;
+  justify-content: center;
+  background-color: currentColor;
+}
+
+.PrivateValueLabel-thumb-21.PrivateValueLabel-open-22 .PrivateValueLabel-offset-23 {
+  transform: scale(1) translateY(-18px) !important;
+}
+
+.MuiSlider-valueLabel {
+  left: calc(-50% - 12px) !important;
+}

@@ -1,0 +1,1 @@
+export const EDITAR_VALOR = 'EDITAR_VALOR'
