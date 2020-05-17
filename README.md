@@ -1,10 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Comenzar
 
-In the project directory, you can run:
+Para instalar este proyecto primero debe clonarlo:
 
-### `npm run dev`
+### Prerequisitos
+
+ Git
+ Node JS
+ NPM
+ JSON Server
+
+### Instalacion
+
+ `git clone https://github.com/GermanAngarita/PruebaFronted.git` Para clonar el repositorio
+ `cd PruebaFronted` Acceder a la carpeta donde quedo clonado el repositorio
+ `npm install` Instala las dependencias
+
+### Instalacion JSON Server
+
+Este proyecto usa JSON Server, debes instalarlo antes de continuar, una vez instalado correlo con el siguiente
+
+ `cd PruebaFronted` Acceder a la carpeta donde quedo clonado el repositorio
+ `json-server --watch db.json --port 3004`
+
+### Iniciar el Proyecto
+
+Este proyecto tiene variables de entorno que se fijan cuando se arranca el servidor, para iniciar con las 
+variables de entorno:
+
+ `npm run dev`
+
+
+ Abra [http://localhost:3000](http://localhost:3000) para ver el proyecto en el navegador.
+
+### Iniciar el Proyecto
+
+Las variables de entorno para este proyecto son:
+
+`REACT_APP_API_URL=http://localhost:3004`
+`REACT_APP_CAPITAL_BASE_BANCO=1000000`
+
+
+<!-- ### `npm run dev`
 
 Para correr el proyecto en modo desarrollo, se cargaran las siguientes variables de entorno con este comando:
 
@@ -38,5 +76,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information. -->
 
